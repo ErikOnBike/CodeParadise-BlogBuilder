@@ -65,6 +65,7 @@ BbBlogView class >> style [
 	}
 	#pages {
 		flex-grow: 1;
+		overflow: hidden;
 	}
 	#contents {
 		flex-shrink: 0;
