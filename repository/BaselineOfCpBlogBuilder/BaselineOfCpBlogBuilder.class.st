@@ -13,7 +13,7 @@ BaselineOfCpBlogBuilder >> baseline: spec [
 
 		"Dependencies"
 		spec
-			baseline: 'CodeParadise' with: [ spec loads: #('Default') ; repository: 'github://ErikOnBike/CodeParadise' ].
+			baseline: 'CodeParadise' with: [ spec loads: #('default') ; repository: 'github://ErikOnBike/CodeParadise:master' ].
 
 		"Packages"
 		spec
