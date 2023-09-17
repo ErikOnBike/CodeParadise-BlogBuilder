@@ -35,7 +35,10 @@ BbBlog class >> exampleBlog [
 					yourself) ;
 				addParagraph: (BbParagraph new
 					addContent: (BbTextContent text: 'Installing the BlogBuilder (as can be installed using the following snippet, inside a CodeParadise image).') ;
-					addContent: (BbCodeContent code: 'install' language: 'Smalltalk') ;
+					addContent: (BbCodeContent code: 'Metacello new
+  repository: ''github://ErikOnBike/CodeParadise-BlogBuilder:main'';
+  baseline: ''CpBlogBuilder'';
+  load.' language: 'Smalltalk') ;
 					yourself) ;
 				addParagraph: ((BbParagraph header: 'Second paragraph')
 					addContent: (BbTextContent text: 'Ut hendrerit sagittis arcu in bibendum.Quisque et cursus quam. In cursus ante vitae eratProin et hendrerit dui. Sed aliquam finibus sodales. Etiam at risus sit amet nuncClass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptosIn cursus ante vitae erat blandit, a aliquet risus mattis. Class aptent tacitiNulla facilisis, nisi sed tincidunt maximus, turpis ligula dignissim lorem, atSed venenatis feugiat fringilla. Proin et hendrerit dui. Sed aliquam finibus sodales. Etiam atVestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubiliaNulla facilisis, nisi sed tincidunt maximus, turpis ligula dignissim lorem,Pellentesque elit enim, lacinia atNunc quis hendrerit dolor. Pellentesque elit enim, lacinia at tellus eget, lacinia dapibus neque.Praesent non facilisis libero. Vestibulum ante ipsum primisNunc quis hendrerit dolor. Pellentesque elit enim, laciniaPhasellus tempus in magna ut aliquet.') ;
