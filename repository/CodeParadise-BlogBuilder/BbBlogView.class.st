@@ -152,14 +152,6 @@ BbBlogView >> appendChild: childElement atSlotNamed: nameString [
 		ifTrue: [ self linkNewContentsItem: childElement ]
 ]
 
-{ #category : #initialization }
-BbBlogView >> initializeShadowRoot [
-
-	super initializeShadowRoot.
-
-	(self shadowRoot elementWithId: #header) when: CpClickEvent basicPrimary send: #snapshotImage to: CpClientEnvironmentSnapshot
-]
-
 { #category : #'adding/removing' }
 BbBlogView >> linkNewContentsItem: childElement [
 
