@@ -158,7 +158,7 @@ BbPageView >> show [
 	Set or remove the class 'show' on all pages (only the one equal to
 	the receiver will actually set it, all others will get it removed)."
 
-	(CpHtmlElement documentBody allDescendantsMatching: self class asCssSelector) do: [ :each |
+	self class all do: [ :each |
 		each classed: #show if: each = self ]
 ]
 
