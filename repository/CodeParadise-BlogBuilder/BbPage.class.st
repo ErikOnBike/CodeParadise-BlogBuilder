@@ -5,7 +5,8 @@ Class {
 		'title',
 		'sections',
 		'createdTimestamp',
-		'lastUpdatedTimestamp'
+		'lastUpdatedTimestamp',
+		'id'
 	],
 	#category : #'CodeParadise-BlogBuilder-Model'
 }
@@ -82,12 +83,6 @@ BbPage >> lastUpdatedTimestamp: aDateAndTime [
 BbPage >> lastUpdatedTimestampString [
 
 	^ lastUpdatedTimestamp ifNotNil: [ lastUpdatedTimestamp asStringYMDHM ]
-]
-
-{ #category : #presenter }
-BbPage >> preferredPresenterClass [
-
-	^ BbPagePresenter
 ]
 
 { #category : #accessing }

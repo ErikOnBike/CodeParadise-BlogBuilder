@@ -113,12 +113,6 @@ BbBlog >> pages [
 	^ pages
 ]
 
-{ #category : #presenter }
-BbBlog >> preferredPresenterClass [
-
-	^ BbBlogPresenter
-]
-
 { #category : #accessing }
 BbBlog >> title [
 

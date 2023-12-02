@@ -24,9 +24,3 @@ BbBlockContent >> initialize [
 
 	contentItems := OrderedCollection new
 ]
-
-{ #category : #presenter }
-BbBlockContent >> preferredPresenterClass [
-
-	^ BbBlockContentPresenter
-]

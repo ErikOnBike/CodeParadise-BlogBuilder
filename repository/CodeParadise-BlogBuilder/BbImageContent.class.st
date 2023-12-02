@@ -62,12 +62,6 @@ BbImageContent >> initializeWithSrc: srcString title: titleString [
 	title := titleString
 ]
 
-{ #category : #presenter }
-BbImageContent >> preferredPresenterClass [
-
-	^ BbImageContentPresenter
-]
-
 { #category : #accessing }
 BbImageContent >> src [
 

@@ -54,12 +54,6 @@ BbSection >> paragraphs [
 	^ paragraphs
 ]
 
-{ #category : #presenter }
-BbSection >> preferredPresenterClass [
-
-	^ BbSectionPresenter
-]
-
 { #category : #accessing }
 BbSection >> references [
 

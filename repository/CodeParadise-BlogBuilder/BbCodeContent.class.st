@@ -58,9 +58,3 @@ BbCodeContent >> language: aString [
 
 	self valueChanged
 ]
-
-{ #category : #presenter }
-BbCodeContent >> preferredPresenterClass [
-
-	^ BbCodeContentPresenter
-]

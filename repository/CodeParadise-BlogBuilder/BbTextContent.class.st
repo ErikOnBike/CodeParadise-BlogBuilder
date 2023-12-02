@@ -23,12 +23,6 @@ BbTextContent >> initializeWithText: aString [
 	text := aString
 ]
 
-{ #category : #presenter }
-BbTextContent >> preferredPresenterClass [
-
-	^ BbTextContentPresenter
-]
-
 { #category : #accessing }
 BbTextContent >> text [
 

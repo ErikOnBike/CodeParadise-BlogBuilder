@@ -25,12 +25,6 @@ BbLinkContent >> initializeWithText: textString url: urlString [
 	url := urlString
 ]
 
-{ #category : #presenter }
-BbLinkContent >> preferredPresenterClass [
-
-	^ BbLinkContentPresenter
-]
-
 { #category : #accessing }
 BbLinkContent >> text [
 

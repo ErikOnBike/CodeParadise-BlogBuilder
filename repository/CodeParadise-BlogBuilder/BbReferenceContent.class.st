@@ -50,9 +50,3 @@ BbReferenceContent >> name [
 
 	^ name
 ]
-
-{ #category : #presenter }
-BbReferenceContent >> preferredPresenterClass [
-
-	^ BbReferenceContentPresenter
-]

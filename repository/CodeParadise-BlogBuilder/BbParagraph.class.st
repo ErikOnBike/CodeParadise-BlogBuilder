@@ -54,12 +54,6 @@ BbParagraph >> initializeWithHeader: aString [
 	header := aString
 ]
 
-{ #category : #presenter }
-BbParagraph >> preferredPresenterClass [
-
-	^ BbParagraphPresenter
-]
-
 { #category : #accessing }
 BbParagraph >> references [
 
