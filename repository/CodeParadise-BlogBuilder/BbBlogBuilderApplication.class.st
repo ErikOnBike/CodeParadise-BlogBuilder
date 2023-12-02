@@ -19,12 +19,6 @@ BbBlogBuilderApplication >> applicationModel [
 	^ blog
 ]
 
-{ #category : #presenter }
-BbBlogBuilderApplication >> applicationPresenterClass [
-
-	^ BbBlogPresenter
-]
-
 { #category : #accessing }
 BbBlogBuilderApplication >> initialize [
 
